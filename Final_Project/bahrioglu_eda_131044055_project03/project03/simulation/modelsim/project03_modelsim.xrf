@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/eb/Desktop/project03/data.mem
+source_file = 1, C:/Users/eb/Desktop/project03/instruction.mem
+source_file = 1, C:/Users/eb/Desktop/project03/registers.mem
+source_file = 1, C:/Users/eb/Desktop/project03/readme.txt
+source_file = 1, C:/Users/eb/Desktop/project03/mips_core.v
+source_file = 1, C:/Users/eb/Desktop/project03/mips_testbench.v
+source_file = 1, C:/Users/eb/Desktop/project03/mips_registers.v
+source_file = 1, C:/Users/eb/Desktop/project03/mips_instr_mem.v
+source_file = 1, C:/Users/eb/Desktop/project03/mips_data_mem.v
+source_file = 1, C:/Users/eb/Desktop/project03/ALU.v
+source_file = 1, C:/Users/eb/Desktop/project03/Control.v
+source_file = 1, C:/Users/eb/Desktop/project03/ALU_Control.v
+source_file = 1, C:/Users/eb/Desktop/project03/db/project03.cbx.xml
+design_name = mips_core
+instance = comp, \clock~input , clock~input, mips_core, 1

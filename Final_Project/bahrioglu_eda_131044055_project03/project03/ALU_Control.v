@@ -1,0 +1,11 @@
+module ALU_Control(func,AluOp,AluCtr);
+
+	output [2:0]AluCtr;
+	input [5:0]func;
+	input [1:0]AluOp;
+	
+	assign AluCtr[2] = AluOp[0] + (AluOp[1] & func[3]);
+	assign AluCtr[1] = !(AluOp[1]) + !(func[2]);
+	assign AluCtr[0] = AluOp[1] & (func[3] + func[0]);
+	
+endmodule 
